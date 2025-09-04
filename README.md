@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Vladislav117:MCData:0.0.0'
+    implementation 'com.github.Vladislav117:MCData:0.1.0'
 }
 ```
 
