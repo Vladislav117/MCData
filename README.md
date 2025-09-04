@@ -1,6 +1,6 @@
-# JavaLibraryTemplate
+# MCData
 
-JavaLibraryTemplate - шаблон java-библиотеки.
+MCData - менеджер данных для `PersistentDataContainer`.
 
 ## Добавление зависимости
 
@@ -12,11 +12,13 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Vladislav117:JavaLibraryTemplate:0.0.0'
+    implementation 'com.github.Vladislav117:MCData:0.0.0'
 }
 ```
 
 ## Сборка
+
+Генерация класса DataManager осуществляется командой `./gradlew buildDataManagerClass`
 
 Сборка осуществляется командой `./gradlew build`
 
